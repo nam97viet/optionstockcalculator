@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Option Stock Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header">Option Stock Calculator</header>
+    <div class="input-value">
+      <h1>Position Sizing Calculator</h1>
+      <div class="input-box">
+        <label class="title" for="account_size">Account Size</label>
+        <input
+          type="number"
+          id="account_size"
+          name="account_size"
+          placeholder="Input Account Size here"
+          required
+        />
+      </div>
+      <div class="input-box">
+        <label class="title" for="account_risk">Account Risk(%) </label>
+        <input
+          type="number"
+          id="account_risk"
+          name="account_risk"
+          placeholder="Input Account Risk here"
+          required
+        />
+      </div>
+      <div class="input-box">
+        <label class="title" for="stop_loss">Stoploss(%) per day</label>
+        <input
+          type="number"
+          id="stop_loss"
+          name="stop_loss"
+          placeholder="Input Stop Loss here"
+          required
+        />
+      </div>
+      <p class="max_loss_per_day">Max loss per day = 200$</p>
+      <button class="btn" onclick="calculateresults()">Calculate Results</button>
+      <p id="result"></p>
+    </div>
+    <div class="guide">
+      <div class="guide-header">
+        <h1>Instruction for Position Sizing Calculator</h1>
+      </div>
+      <div class="guides">
+        <table>
+          <tr>
+            <td>Account Size</td>
+            <td>The amount of money you have in your account</td>
+          </tr>
+          <tr>
+            <td>Account Risk %</td>
+            <td>The amount of risk you're comfortable being</td>
+          </tr>
+          <tr>
+            <td>Max Loss per Day</td>
+            <td>The maximum amount you lose for the day</td>
+          </tr>
+          <tr>
+            <td>Stoploss % per Trade</td>
+            <td>The percentage you want to cut loss for each trade</td>
+          </tr>
+          <tr>
+            <td>Number of Trade</td>
+            <td>Number of Trade for the day</td>
+          </tr>
+          <tr>
+            <td>Amount per Trade</td>
+            <td>Amount of money in each trade</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

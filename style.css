@@ -1,0 +1,157 @@
+input {
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+thead {
+  background-color: #f1f1f1;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: pink;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-value {
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px black;
+  padding: 15px;
+  background-color: aqua;
+}
+
+.input-box .title {
+  padding: 20px;
+}
+
+#account_size,
+#account_risk,
+#stop_loss {
+  margin: 10px;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+.max_loss_per_day {
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.guide {
+  padding: 15px;
+  border: 1px;
+  background-color: greenyellow;
+}
+
+input {
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+thead {
+  background-color: #f1f1f1;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: pink;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-value {
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px black;
+  padding: 15px;
+  background-color: aqua;
+}
+
+.input-box {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.guide {
+  padding: 15px;
+  border: 1px;
+  background-color: greenyellow;
+}
